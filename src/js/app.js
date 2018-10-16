@@ -54,6 +54,41 @@ var indefinido = undefined;
   var desigual = 4 != 4;
 
   var valorachecar = 20;
-  var esvalido = (valorachecar <=20) || (valorachecar >=30)
-  var esvalido = (valorachecar <=20) && (valorachecar >=30)
-  console.log ("Es valido? ", esvalido);
+  var esvalido = (valorachecar <=20) || (valorachecar >=30) // Signigica O
+  var esvalido = (valorachecar <=20) && (valorachecar >=30) // Significa Y
+//   console.log ("Es valido? ", esvalido);
+
+  // IF
+
+  if (false) {
+      // ... codigo que se ejecuta si  valorachecar es true
+      console.log("Es verdadero")
+  } else if() {
+      // ... codigo que se ejecuta si valorachecar es false
+      console.log("Es falso")
+  }
+
+  // LOOP
+var contador = 0;
+  while(contador <=10) {
+    // console.log("Hola", contador);
+    contador = contador + 1;
+  }
+ 
+ 
+  // LOOP DO WHILE
+ var contador2 = -100;
+//    do {
+    if (contador2 < 0) {
+       contador2 = 0;
+       console.log("CONTADOR vista");
+   }
+       contador = contador + 1;
+   } while (contador2 < 10);
+// 
+//  LOOP FOR
+var i= 0;
+  console.log("loop for")
+for (var i = 0; i < 10; i++){
+    console.log("Hola contador", i);
+}
